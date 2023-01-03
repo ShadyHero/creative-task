@@ -1,0 +1,352 @@
+# Fill me in!##### Squares #####
+### row 8 ###
+a8=Rect(0,0,50,50,fill='beige')
+b8=Rect(50,0,50,50,fill='saddlebrown')
+c8=Rect(100,0,50,50,fill='beige')
+d8=Rect(150,0,50,50,fill='saddlebrown')
+e8=Rect(200,0,50,50,fill='beige')
+f8=Rect(250,0,50,50,fill='saddlebrown')
+g8=Rect(300,0,50,50,fill='beige')
+h8=Rect(350,0,50,50,fill='saddlebrown')
+### row 7 ###
+a7=Rect(0,50,50,50,fill='saddlebrown')
+b7=Rect(50,50,50,50,fill='beige')
+c7=Rect(100,50,50,50,fill='saddlebrown')
+d7=Rect(150,50,50,50,fill='beige')
+e7=Rect(200,50,50,50,fill='saddlebrown')
+f7=Rect(250,50,50,50,fill='beige')
+g7=Rect(300,50,50,50,fill='saddlebrown')
+h7=Rect(350,50,50,50,fill='beige')
+### row 6 ###
+a6=Rect(0,100,50,50,fill='beige')
+b6=Rect(50,100,50,50,fill='saddlebrown')
+c6=Rect(100,100,50,50,fill='beige')
+d6=Rect(150,100,50,50,fill='saddlebrown')
+e6=Rect(200,100,50,50,fill='beige')
+f6=Rect(250,100,50,50,fill='saddlebrown')
+g6=Rect(300,100,50,50,fill='beige')
+h6=Rect(350,100,50,50,fill='saddlebrown')
+### row 5 ###
+a5=Rect(0,150,50,50,fill='saddlebrown')
+b5=Rect(50,150,50,50,fill='beige')
+c5=Rect(100,150,50,50,fill='saddlebrown')
+d5=Rect(150,150,50,50,fill='beige')
+e5=Rect(200,150,50,50,fill='saddlebrown')
+f5=Rect(250,150,50,50,fill='beige')
+g5=Rect(300,150,50,50,fill='saddlebrown')
+h5=Rect(350,150,50,50,fill='beige')
+### row 4 ###
+a4=Rect(0,200,50,50,fill='beige')
+b4=Rect(50,200,50,50,fill='saddlebrown')
+c4=Rect(100,200,50,50,fill='beige')
+d4=Rect(150,200,50,50,fill='saddlebrown')
+e4=Rect(200,200,50,50,fill='beige')
+f4=Rect(250,200,50,50,fill='saddlebrown')
+g4=Rect(300,200,50,50,fill='beige')
+h4=Rect(350,200,50,50,fill='saddlebrown')
+### row 3 ###
+a3=Rect(0,250,50,50,fill='saddlebrown')
+b3=Rect(50,250,50,50,fill='beige')
+c3=Rect(100,250,50,50,fill='saddlebrown')
+d3=Rect(150,250,50,50,fill='beige')
+e3=Rect(200,250,50,50,fill='saddlebrown')
+f3=Rect(250,250,50,50,fill='beige')
+g3=Rect(300,250,50,50,fill='saddlebrown')
+h3=Rect(350,250,50,50,fill='beige')
+### row 2 ###
+a2=Rect(0,300,50,50,fill='beige')
+b2=Rect(50,300,50,50,fill='saddlebrown')
+c2=Rect(100,300,50,50,fill='beige')
+d2=Rect(150,300,50,50,fill='saddlebrown')
+e2=Rect(200,300,50,50,fill='beige')
+f2=Rect(250,300,50,50,fill='saddlebrown')
+g2=Rect(300,300,50,50,fill='beige')
+h2=Rect(350,300,50,50,fill='saddlebrown')
+### row 1 ###
+a1=Rect(0,350,50,50,fill='saddlebrown')
+b1=Rect(50,350,50,50,fill='beige')
+c1=Rect(100,350,50,50,fill='saddlebrown')
+d1=Rect(150,350,50,50,fill='beige')
+e1=Rect(200,350,50,50,fill='saddlebrown')
+f1=Rect(250,350,50,50,fill='beige')
+g1=Rect(300,350,50,50,fill='saddlebrown')
+h1=Rect(350,350,50,50,fill='beige')
+##### Pieces #####
+### white pawns ###
+# A2 Pawn #
+a2pawn=Group(Circle(199.5,186.5,10,fill='whiteSmoke',border='black'),
+Polygon(194,195,204,195,212,198,210,202,188,202,187,198,fill='whiteSmoke',border='black'),
+Rect(194.5,202,10,26,fill='whiteSmoke',border='black'),
+Polygon(180,228,184,218,193,210,206,210,216,218,220,228,fill='whiteSmoke',border='black'))
+a2pawn.centerX=a2.centerX;a2pawn.centerY=a2.centerY
+# B2 Pawn #
+b2pawn=Group(Circle(199.5,186.5,10,fill='whiteSmoke',border='black'),
+Polygon(194,195,204,195,212,198,210,202,188,202,187,198,fill='whiteSmoke',border='black'),
+Rect(194.5,202,10,26,fill='whiteSmoke',border='black'),
+Polygon(180,228,184,218,193,210,206,210,216,218,220,228,fill='whiteSmoke',border='black'))
+b2pawn.centerX=b2.centerX;b2pawn.centerY=b2.centerY
+# C2 Pawn #
+c2pawn=Group(Circle(199.5,186.5,10,fill='whiteSmoke',border='black'),
+Polygon(194,195,204,195,212,198,210,202,188,202,187,198,fill='whiteSmoke',border='black'),
+Rect(194.5,202,10,26,fill='whiteSmoke',border='black'),
+Polygon(180,228,184,218,193,210,206,210,216,218,220,228,fill='whiteSmoke',border='black'))
+c2pawn.centerX=c2.centerX;c2pawn.centerY=c2.centerY
+# D2 Pawn #
+d2pawn=Group(Circle(199.5,186.5,10,fill='whiteSmoke',border='black'),
+Polygon(194,195,204,195,212,198,210,202,188,202,187,198,fill='whiteSmoke',border='black'),
+Rect(194.5,202,10,26,fill='whiteSmoke',border='black'),
+Polygon(180,228,184,218,193,210,206,210,216,218,220,228,fill='whiteSmoke',border='black'))
+d2pawn.centerX=d2.centerX;d2pawn.centerY=d2.centerY
+# E2 Pawn #
+e2pawn=Group(Circle(199.5,186.5,10,fill='whiteSmoke',border='black'),
+Polygon(194,195,204,195,212,198,210,202,188,202,187,198,fill='whiteSmoke',border='black'),
+Rect(194.5,202,10,26,fill='whiteSmoke',border='black'),
+Polygon(180,228,184,218,193,210,206,210,216,218,220,228,fill='whiteSmoke',border='black'))
+e2pawn.centerX=e2.centerX;e2pawn.centerY=e2.centerY
+# F2 Pawn #
+f2pawn=Group(Circle(199.5,186.5,10,fill='whiteSmoke',border='black'),
+Polygon(194,195,204,195,212,198,210,202,188,202,187,198,fill='whiteSmoke',border='black'),
+Rect(194.5,202,10,26,fill='whiteSmoke',border='black'),
+Polygon(180,228,184,218,193,210,206,210,216,218,220,228,fill='whiteSmoke',border='black'))
+f2pawn.centerX=f2.centerX;f2pawn.centerY=f2.centerY
+# G2 Pawn #
+g2pawn=Group(Circle(199.5,186.5,10,fill='whiteSmoke',border='black'),
+Polygon(194,195,204,195,212,198,210,202,188,202,187,198,fill='whiteSmoke',border='black'),
+Rect(194.5,202,10,26,fill='whiteSmoke',border='black'),
+Polygon(180,228,184,218,193,210,206,210,216,218,220,228,fill='whiteSmoke',border='black'))
+g2pawn.centerX=g2.centerX;g2pawn.centerY=g2.centerY
+# H2 Pawn #
+h2pawn=Group(Circle(199.5,186.5,10,fill='whiteSmoke',border='black'),
+Polygon(194,195,204,195,212,198,210,202,188,202,187,198,fill='whiteSmoke',border='black'),
+Rect(194.5,202,10,26,fill='whiteSmoke',border='black'),
+Polygon(180,228,184,218,193,210,206,210,216,218,220,228,fill='whiteSmoke',border='black'))
+h2pawn.centerX=h2.centerX;h2pawn.centerY=h2.centerY
+### black pawns ###
+# A7 Pawn #
+a7pawn=Group(Circle(199.5,186.5,10,fill='gray',border='black'),
+Polygon(194,195,204,195,212,198,210,202,188,202,187,198,fill='gray',border='black'),
+Rect(194.5,202,10,26,fill='gray',border='black'),
+Polygon(180,228,184,218,193,210,206,210,216,218,220,228,fill='gray',border='black'))
+a7pawn.centerX=a7.centerX;a7pawn.centerY=a7.centerY
+# B7 Pawn
+b7pawn=Group(Circle(199.5,186.5,10,fill='gray',border='black'),
+Polygon(194,195,204,195,212,198,210,202,188,202,187,198,fill='gray',border='black'),
+Rect(194.5,202,10,26,fill='gray',border='black'),
+Polygon(180,228,184,218,193,210,206,210,216,218,220,228,fill='gray',border='black'))
+b7pawn.centerX=b7.centerX;b7pawn.centerY=b7.centerY
+# C7 Pawn #
+c7pawn=Group(Circle(199.5,186.5,10,fill='gray',border='black'),
+Polygon(194,195,204,195,212,198,210,202,188,202,187,198,fill='gray',border='black'),
+Rect(194.5,202,10,26,fill='gray',border='black'),
+Polygon(180,228,184,218,193,210,206,210,216,218,220,228,fill='gray',border='black'))
+c7pawn.centerX=c7.centerX;c7pawn.centerY=c7.centerY
+# D7 Pawn #
+d7pawn=Group(Circle(199.5,186.5,10,fill='gray',border='black'),
+Polygon(194,195,204,195,212,198,210,202,188,202,187,198,fill='gray',border='black'),
+Rect(194.5,202,10,26,fill='gray',border='black'),
+Polygon(180,228,184,218,193,210,206,210,216,218,220,228,fill='gray',border='black'))
+d7pawn.centerX=d7.centerX;d7pawn.centerY=d7.centerY
+# E7 Pawn #
+e7pawn=Group(Circle(199.5,186.5,10,fill='gray',border='black'),
+Polygon(194,195,204,195,212,198,210,202,188,202,187,198,fill='gray',border='black'),
+Rect(194.5,202,10,26,fill='gray',border='black'),
+Polygon(180,228,184,218,193,210,206,210,216,218,220,228,fill='gray',border='black'))
+e7pawn.centerX=e7.centerX;e7pawn.centerY=e7.centerY
+# F7 Pawn #
+f7pawn=Group(Circle(199.5,186.5,10,fill='gray',border='black'),
+Polygon(194,195,204,195,212,198,210,202,188,202,187,198,fill='gray',border='black'),
+Rect(194.5,202,10,26,fill='gray',border='black'),
+Polygon(180,228,184,218,193,210,206,210,216,218,220,228,fill='gray',border='black'))
+f7pawn.centerX=f7.centerX;f7pawn.centerY=f7.centerY
+# G7 Pawn #
+g7pawn=Group(Circle(199.5,186.5,10,fill='gray',border='black'),
+Polygon(194,195,204,195,212,198,210,202,188,202,187,198,fill='gray',border='black'),
+Rect(194.5,202,10,26,fill='gray',border='black'),
+Polygon(180,228,184,218,193,210,206,210,216,218,220,228,fill='gray',border='black'))
+g7pawn.centerX=g7.centerX;g7pawn.centerY=g7.centerY
+# H7 Pawn #
+h7pawn=Group(Circle(199.5,186.5,10,fill='gray',border='black'),
+Polygon(194,195,204,195,212,198,210,202,188,202,187,198,fill='gray',border='black'),
+Rect(194.5,202,10,26,fill='gray',border='black'),
+Polygon(180,228,184,218,193,210,206,210,216,218,220,228,fill='gray',border='black'))
+h7pawn.centerX=h7.centerX;h7pawn.centerY=h7.centerY
+### white rooks ###
+# A1 Rook #
+a1rook=Group(Polygon(181,175,187,174,189,181,195,180,195,172,203,172,204,180,211,181,212,174,218,174,217,185,213,189,186,189,183,186,fill='whitesmoke',border='black'),
+Polygon(190,188,210,188,216,214,184,214,fill='whitesmoke',border='black'),
+Polygon(178,228,180,220,184,214,216,214,220,220,222,228,fill='whitesmoke',border='black'))
+a1rook.centerX=a1.centerX;a1rook.centerY=a1.centerY
+# H1 Rook #
+h1rook=Group(Polygon(181,175,187,174,189,181,195,180,195,172,203,172,204,180,211,181,212,174,218,174,217,185,213,189,186,189,183,186,fill='whitesmoke',border='black'),
+Polygon(190,188,210,188,216,214,184,214,fill='whitesmoke',border='black'),
+Polygon(178,228,180,220,184,214,216,214,220,220,222,228,fill='whitesmoke',border='black'))
+h1rook.centerX=h1.centerX;h1rook.centerY=h1.centerY
+### black rooks ###
+# A8 Rook #
+a8rook=Group(Polygon(181,175,187,174,189,181,195,180,195,172,203,172,204,180,211,181,212,174,218,174,217,185,213,189,186,189,183,186,fill='gray',border='black'),
+Polygon(190,188,210,188,216,214,184,214,fill='gray',border='black'),
+Polygon(178,228,180,220,184,214,216,214,220,220,222,228,fill='gray',border='black'))
+a8rook.centerX=a8.centerX;a8rook.centerY=a8.centerY
+# H8 Rook #
+h8rook=Group(Polygon(181,175,187,174,189,181,195,180,195,172,203,172,204,180,211,181,212,174,218,174,217,185,213,189,186,189,183,186,fill='gray',border='black'),
+Polygon(190,188,210,188,216,214,184,214,fill='gray',border='black'),
+Polygon(178,228,180,220,184,214,216,214,220,220,222,228,fill='gray',border='black'))
+h8rook.centerX=h8.centerX;h8rook.centerY=h8.centerY
+### white bishops ###
+# B1 Bishop #
+b1bishop=Group(Circle(200,176,6,fill='whitesmoke',border='black'),
+Oval(200,200,33,40,fill='whitesmoke',border='black'),
+Polygon(197,201,205,201,208,182,200,182),
+Polygon(176,228,223,228,219,217,181,217,fill='whitesmoke',border='black'))
+b1bishop.centerX=125;b1bishop.centerY=375
+# G1 Bishop #
+g1bishop=Group(Circle(200,176,6,fill='whitesmoke',border='black'),
+Oval(200,200,33,40,fill='whitesmoke',border='black'),
+Polygon(197,201,205,201,208,182,200,182),
+Polygon(176,228,223,228,219,217,181,217,fill='whitesmoke',border='black'))
+g1bishop.centerX=275;g1bishop.centerY=375
+### black bishops ###
+# B8 Bishop #
+b8bishop=Group(Circle(200,176,6,fill='grey',border='black'),
+Oval(200,200,33,40,fill='grey',border='black'),
+Polygon(197,201,205,201,208,182,200,182),
+Polygon(176,228,223,228,219,217,181,217,fill='grey',border='black'))
+b8bishop.centerX=125;b8bishop.centerY=25
+# G8 Bishop #
+g8bishop=Group(Circle(200,176,6,fill='grey',border='black'),
+Oval(200,200,33,40,fill='grey',border='black'),
+Polygon(197,201,205,201,208,182,200,182),
+Polygon(176,228,223,228,219,217,181,217,fill='grey',border='black'))
+g8bishop.centerX=275;g8bishop.centerY=25
+### White Queen ###
+d1queen=Group(Polygon(182,213,173,187,185,198,187,177,196,196,205,177,206,198,220,187,209,213,fill='whitesmoke',border='black'),
+Circle(173,187,5,fill='whitesmoke',border='black'),
+Circle(187,177,5,fill='whitesmoke',border='black'),
+Circle(205,177,5,fill='whitesmoke',border='black'),
+Circle(220,187,5,fill='whitesmoke',border='black'),
+Polygon(175,225,216,225,209,213,182,213,fill='whitesmoke',border='black'))
+d1queen.centerX=175;d1queen.centerY=375
+### Black Queen ###
+d8queen=Group(Polygon(182,213,173,187,185,198,187,177,196,196,205,177,206,198,220,187,209,213,fill='grey',border='black'),
+Circle(173,187,5,fill='grey',border='black'),
+Circle(187,177,5,fill='grey',border='black'),
+Circle(205,177,5,fill='grey',border='black'),
+Circle(220,187,5,fill='grey',border='black'),
+Polygon(175,225,216,225,209,213,182,213,fill='grey',border='black'))
+d8queen.centerX=175;d8queen.centerY=25
+### White King ###
+e1king=Group(Polygon(195,169,200,169,200,171,204,171,204,177,200,177,202,208,194,208,193,177,188,177,190,171,fill='whitesmoke',border='black'),
+Rect(181,196,32,20,fill='whitesmoke',border='black'),
+Circle(182,191,13,fill='whitesmoke',border='black'),
+Circle(212,191,13,fill='whitesmoke',border='black'),
+Rect(190,182,15,25,fill='whitesmoke',border='black'),
+Rect(177,211,40,10,fill='whitesmoke',border='black'),
+Line(190,183.5,190,207,fill='whitesmoke',lineWidth=4),
+Line(205,183.5,205,207,fill='whitesmoke',lineWidth=4),
+Oval(182,191,14,12,rotateAngle=45,opacity=75),
+Oval(212,191,14,12,rotateAngle=-45,opacity=75),
+Line(190,207,205,207,lineWidth=8.5,fill='whitesmoke'),
+Oval(197.5,197,12.5,14.5,fill='black',opacity=75))
+e1king.centerX=225;e1king.centerY=375
+### Black King ###
+e8king=Group(Polygon(195,169,200,169,200,171,204,171,204,177,200,177,202,208,194,208,193,177,188,177,190,171,fill='grey',border='black'),
+Rect(181,196,32,20,fill='grey',border='black'),
+Circle(182,191,13,fill='grey',border='black'),
+Circle(212,191,13,fill='grey',border='black'),
+Rect(190,182,15,25,fill='grey',border='black'),
+Rect(177,211,40,10,fill='grey',border='black'),
+Line(190,183.5,190,207,fill='grey',lineWidth=4),
+Line(205,183.5,205,207,fill='grey',lineWidth=4),
+Oval(182,191,14,12,rotateAngle=45,opacity=75),
+Oval(212,191,14,12,rotateAngle=-45,opacity=75),
+Line(190,207,205,207,lineWidth=8.5,fill='grey'),
+Oval(197.5,197,12.5,14.5,fill='black',opacity=75))
+e8king.centerX=225;e8king.centerY=25
+### White Knights ###
+# B1 Knight #
+b1knight=Group(Polygon(180,229,220,229,217,219,185,219,fill='whitesmoke',border='black'),
+Polygon(185,219,201,203,200,195,183,206,174,201,182,188,184,182,190,178,192,171,208,180,215,186,221,196,220,211,217,219,fill='whitesmoke',border='black'),
+Oval(192,184,10,8,rotateAngle=-45,fill='white',border='black'))
+b1knight.centerX=75;b1knight.centerY=375
+# G1 Knight #
+g1knight=Group(Polygon(180,229,220,229,217,219,185,219,fill='whitesmoke',border='black'),
+Polygon(185,219,201,203,200,195,183,206,174,201,182,188,184,182,190,178,192,171,208,180,215,186,221,196,220,211,217,219,fill='whitesmoke',border='black'),
+Oval(192,184,10,8,rotateAngle=-45,fill='white',border='black'))
+g1knight.centerX=325;g1knight.centerY=375
+### Black Knights ###
+# B8 Knight #
+b8knight=Group(Polygon(180,229,220,229,217,219,185,219,fill='grey',border='black'),
+Polygon(185,219,201,203,200,195,183,206,174,201,182,188,184,182,190,178,192,171,208,180,215,186,221,196,220,211,217,219,fill='grey',border='black'),
+Oval(192,184,10,8,rotateAngle=-45,fill='white',border='black'))
+b8knight.centerX=75;b8knight.centerY=25
+# G8 Knight #
+g8knight=Group(Polygon(180,229,220,229,217,219,185,219,fill='grey',border='black'),
+Polygon(185,219,201,203,200,195,183,206,174,201,182,188,184,182,190,178,192,171,208,180,215,186,221,196,220,211,217,219,fill='grey',border='black'),
+Oval(192,184,10,8,rotateAngle=-45,fill='white',border='black'))
+g8knight.centerX=325;g8knight.centerY=25
+##### Basic Movement #####
+def onMouseDrag(mouseX,mouseY):
+    if b1knight.contains(mouseX,mouseY):
+        b1knight.centerX=mouseX;b1knight.centerY=mouseY
+    if b8knight.contains(mouseX,mouseY):
+        b8knight.centerX=mouseX;b8knight.centerY=mouseY
+    if g1knight.contains(mouseX,mouseY):
+        g1knight.centerX=mouseX;g1knight.centerY=mouseY
+    if g8knight.contains(mouseX,mouseY):
+        g8knight.centerX=mouseX;g8knight.centerY=mouseY
+    if a1rook.contains(mouseX,mouseY):
+        a1rook.centerX=mouseX;a1rook.centerY=mouseY
+    if h1rook.contains(mouseX,mouseY):
+        h1rook.centerX=mouseX;h1rook.centerY=mouseY
+    if a8rook.contains(mouseX,mouseY):
+        a8rook.centerX=mouseX;a8rook.centerY=mouseY
+    if h8rook.contains(mouseX,mouseY):
+        h8rook.centerX=mouseX;h8rook.centerY=mouseY
+    if e8king.contains(mouseX,mouseY):
+        e8king.centerX=mouseX;e8king.centerY=mouseY
+    if e1king.contains(mouseX,mouseY):
+        e1king.centerX=mouseX;e1king.centerY=mouseY
+    if d8queen.contains(mouseX,mouseY):
+        d8queen.centerX=mouseX;d8queen.centerY=mouseY
+    if d1queen.contains(mouseX,mouseY):
+        d1queen.centerX=mouseX;d1queen.centerY=mouseY
+    if g8bishop.contains(mouseX,mouseY):
+        g8bishop.centerX=mouseX;g8bishop.centerY=mouseY
+    if b8bishop.contains(mouseX,mouseY):
+        b8bishop.centerX=mouseX;b8bishop.centerY=mouseY
+    if g1bishop.contains(mouseX,mouseY):
+        g1bishop.centerX=mouseX;g1bishop.centerY=mouseY
+    if b1bishop.contains(mouseX,mouseY):
+        b1bishop.centerX=mouseX;b1bishop.centerY=mouseY
+    if a2pawn.contains(mouseX,mouseY):
+        a2pawn.centerX=mouseX;a2pawn.centerY=mouseY
+    if b2pawn.contains(mouseX,mouseY):
+        b2pawn.centerX=mouseX;b2pawn.centerY=mouseY
+    if c2pawn.contains(mouseX,mouseY):
+        c2pawn.centerX=mouseX;c2pawn.centerY=mouseY
+    if d2pawn.contains(mouseX,mouseY):
+        d2pawn.centerX=mouseX;d2pawn.centerY=mouseY
+    if e2pawn.contains(mouseX,mouseY):
+        e2pawn.centerX=mouseX;e2pawn.centerY=mouseY
+    if f2pawn.contains(mouseX,mouseY):
+        f2pawn.centerX=mouseX;f2pawn.centerY=mouseY
+    if g2pawn.contains(mouseX,mouseY):
+        g2pawn.centerX=mouseX;g2pawn.centerY=mouseY
+    if h2pawn.contains(mouseX,mouseY):
+        h2pawn.centerX=mouseX;h2pawn.centerY=mouseY
+    if a7pawn.contains(mouseX,mouseY):
+        a7pawn.centerX=mouseX;a7pawn.centerY=mouseY
+    if b7pawn.contains(mouseX,mouseY):
+        b7pawn.centerX=mouseX;b7pawn.centerY=mouseY
+    if c7pawn.contains(mouseX,mouseY):
+        c7pawn.centerX=mouseX;c7pawn.centerY=mouseY
+    if d7pawn.contains(mouseX,mouseY):
+        d7pawn.centerX=mouseX;d7pawn.centerY=mouseY
+    if e7pawn.contains(mouseX,mouseY):
+        e7pawn.centerX=mouseX;e7pawn.centerY=mouseY
+    if f7pawn.contains(mouseX,mouseY):
+        f7pawn.centerX=mouseX;f7pawn.centerY=mouseY
+    if g7pawn.contains(mouseX,mouseY):
+        g7pawn.centerX=mouseX;g7pawn.centerY=mouseY
+    if h7pawn.contains(mouseX,mouseY):
+        h7pawn.centerX=mouseX;h7pawn.centerY=mouseY
